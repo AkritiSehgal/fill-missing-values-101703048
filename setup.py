@@ -18,7 +18,7 @@ setuptools.setup(
     description="A small package for filling missing values in the given dataset",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    download_url="https://github.com/AkritiSehgal/fill-missing-values-101703048/archive/v_01.tar.gz",
+    download_url="https://github.com/AkritiSehgal/fill-missing-values-101703048/archive/v_01.2.tar.gz",
     keywords = ['command-line', 'Missing values', 'missing-values'],
     packages=setuptools.find_packages(),
     classifiers=[

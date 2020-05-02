@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="AkritiSehgal_101703048_Fill_Missing_Values",
+    name="AkritiSehgal_101703048_Fill_Missing_Values_",
     version="0.1",
     author="Akriti Sehgal",
     author_email="akritisehgal9@gmail.com",

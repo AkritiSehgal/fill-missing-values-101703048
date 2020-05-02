@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Feb 16 
+
+@author: ashu
+"""
+#Made by AkritiSehgal(101703048)
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="AkritiSehgal_101703048_Fill_Missing_Values",
+    version="0.1",
+    author="Akriti Sehgal",
+    author_email="akritisehgal9@gmail.com",
+    description="A small package for filling missing values in the given dataset",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    keywords = ['command-line', 'Missing values', 'missing-values'],
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6'
+)
